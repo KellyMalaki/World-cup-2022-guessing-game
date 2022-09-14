@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_game"
+        android:icon="@drawable/ic_games_soccer"
+        android:title="Games" />
+
+    <item
+        android:id="@+id/navigation_standings"
+        android:icon="@drawable/ic_list"
+        android:title="Standings" />
+
+    <item
+        android:id="@+id/navigation_knockout"
+        android:icon="@drawable/ic_knockout"
+        android:title="KnockOut" />
+</menu>

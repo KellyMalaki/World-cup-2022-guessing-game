@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/drawable/background_colour.xml" value="0.1" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/drawable/dialog_background.xml" value="0.1" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/drawable/nav_bottom_text_color.xml" value="0.1" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/drawable/red_button_background.xml" value="0.1" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/drawable/red_line.xml" value="0.1675" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/activity_data_entry.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/activity_statistics.xml" value="0.22" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/activity_test.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/activity_tournament.xml" value="0.25" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/back_button_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/back_button_dialog1.xml" value="0.25" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/back_button_dialog2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/confirm_reset_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/continue_or_start_new_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/fragment_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/fragment_game.xml" value="0.33" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/fragment_knockout.xml" value="0.5" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/fragment_notifications.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/fragment_standings.xml" value="0.1" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/item_standings_one_instance.xml" value="0.2971887550200803" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/item_winner_recylerview_tab.xml" value="0.25" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/knockout_instance.xml" value="0.67" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/knockout_instance_2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/layout/on_knockout_dialog.xml" value="0.22" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Malaki/UpWork Android Projects/Football Tournament 2022/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

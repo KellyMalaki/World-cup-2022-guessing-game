@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_colour">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:scaleType="fitStart"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:baselineAlignBottom="false"
+        android:src="@drawable/background_image_top"
+        app:layout_constraintBottom_toTopOf="@+id/linear_top_guider"
+        app:layout_constraintEnd_toStartOf="@+id/linear_top_guider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:adjustViewBounds="true"
+        android:scaleType="fitEnd"
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/background_image_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/linear_bottom_guider"
+        app:layout_constraintTop_toBottomOf="@+id/linear_bottom_guider" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linear_top_guider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linear_bottom_guider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintVertical_bias="0.74"/>
+
+    <TextView
+        android:id="@+id/txtTitle01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tournament 22"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle02" />
+
+    <TextView
+        android:id="@+id/txtTitle02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Football 20"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtTitle01"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <LinearLayout
+        android:id="@+id/linear_red_line"
+        android:layout_width="0dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="-32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="-32dp"
+        android:background="@drawable/red_line"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/txtTitle01"
+        app:layout_constraintStart_toStartOf="@+id/txtTitle01"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle01"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/ball_icon"
+        app:layout_constraintBottom_toTopOf="@+id/txtTitle01"
+        app:layout_constraintEnd_toStartOf="@+id/txtTitle02"
+        app:layout_constraintStart_toStartOf="@+id/txtTitle01"
+        app:layout_constraintTop_toTopOf="@+id/txtTitle02" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:foreground="?android:attr/selectableItemBackground"
+        android:id="@+id/btn_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/red_button_background"
+        android:paddingStart="24dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="12dp"
+        android:text="Pick a favorite"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear_red_line"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:foreground="?android:attr/selectableItemBackground"
+        android:id="@+id/btn_statistics"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/red_button_background"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:text="Statistics"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_begin"
+        app:layout_constraintStart_toStartOf="@+id/btn_begin"
+        app:layout_constraintTop_toBottomOf="@+id/btn_begin" />
+
+    <ImageView
+        android:id="@+id/btn_privacy_policies"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/info_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
