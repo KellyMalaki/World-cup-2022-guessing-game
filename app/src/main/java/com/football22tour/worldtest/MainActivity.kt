@@ -29,8 +29,7 @@ class MainActivity : AppCompatActivity() {
                 finish()
             }else {
                 val sharedPrefsCorrectImages = "correct_images"
-                val sharedPrefs =
-                    getSharedPreferences(SHARED_PREFS_MAIN_ACTIVITY, Context.MODE_PRIVATE)
+                val sharedPrefs = getSharedPreferences(SHARED_PREFS_MAIN_ACTIVITY, Context.MODE_PRIVATE)
                 if (!sharedPrefs.getBoolean(sharedPrefsCorrectImages, false)) {
                     DataEntry(this).runDataEntry()
                 }
@@ -43,15 +42,12 @@ class MainActivity : AppCompatActivity() {
             teamImages = savedInstanceState.getIntArray(IMAGES_STATE)!!
         }
         //Start normal activities
-        val btnPrivacyPolicies: ImageView = findViewById(R.id.btn_privacy_policies)
+        val btnAppDetails: ImageView = findViewById(R.id.btn_privacy_policies)
         val btnStartSimulator: Button = findViewById(R.id.btn_begin)
         val btnStatistics: Button = findViewById(R.id.btn_statistics)
-        btnPrivacyPolicies.setOnClickListener{
-            //This was the code to open the original app's privacy policy site
-            //startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://pages.flycricket.io/football-tournament/privacy.html")))
-
+        btnAppDetails.setOnClickListener{
             //We replace it with this toast message
-            Toast.makeText(this, "This is just a clone of the original application. Privacy policy isn't povided here.", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "This would show a pop up dialog with information about the app.", Toast.LENGTH_SHORT).show()
         }
         btnStartSimulator.setOnClickListener {
             if (gameExists){
